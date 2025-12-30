@@ -17,8 +17,6 @@ in a dedicated folder.
 
 
 ## Contributors
-
-**Student Contributors**
 - Yicen Yang
 - Yujia Zhang
 - Haoying Xu
@@ -119,3 +117,4 @@ This repository is intended for:
   medical data
 
 It is **not intended as a runnable benchmark without the original datasets**.
+
