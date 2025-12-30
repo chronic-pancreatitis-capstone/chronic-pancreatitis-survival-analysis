@@ -35,8 +35,6 @@ dataset. Key operations include:
 - Constructing time-to-event and observation-time fields
 - Preparing labels for downstream survival analysis
 
-Reference: `capstone_complete_report.pdf`
-
 ---
 
 ### Step 2 — Raw Image Data Preprocessing  
@@ -48,8 +46,6 @@ This step handles large-scale preprocessing of raw CT imaging data:
 - Reduction of multi-frame images to representative 2D slices
 - Compression of imaging data using BLOSC (LZ4HC + bitshuffle) for storage efficiency
 - Parallelized processing across dataset shards
-
-Reference: `datapreprocessing.pdf`
 
 ---
 
@@ -66,10 +62,6 @@ image-only modeling:
 
 Outputs from this step include patient-level image embeddings used by the final
 survival models.
-
-References:
-- `Image preprocessing.pdf`
-- `Image_only_model.pdf`
 
 ---
 
@@ -115,5 +107,6 @@ This repository is intended for:
   medical data
 
 It is **not intended as a runnable benchmark without the original datasets**.
+
 
 
