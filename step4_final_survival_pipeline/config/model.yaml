@@ -1,0 +1,35 @@
+# ======================================================
+# Model Configuration
+# ======================================================
+
+# Shared
+input_dim: null
+device: "cuda"
+
+# Clinical MLP
+mlp_hidden_dim: 64
+mlp_output_dim: 32
+dropout: 0.2
+
+# Frozen image encoder
+cnn_output_dim: 256
+image_model_path: null
+
+# Fusion
+fusion_dim: 64
+
+# XGBoost parameters
+xgb_n_estimators: 300
+xgb_max_depth: 5
+xgb_eta: 0.05
+xgb_subsample: 0.8
+xgb_colsample_bytree: 0.8
+xgb_min_child_weight: 1
+xgb_random_state: 42
+xgb_eval_metric: "auc"
+xgb_early_stopping_rounds: 50
+
+# Cox model
+cox_using_penalizer: false
+cox_penalizer: 0.1
+cox_var_threshold: 0.0001

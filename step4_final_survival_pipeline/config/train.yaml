@@ -1,0 +1,12 @@
+# ============================================
+# Training Configuration
+# ============================================
+
+lr: 0.0005
+weight_decay: 0.0001
+num_epochs: 500
+patience: 20
+batch_size: 32
+
+# Baseline hazard estimation method for Cox models
+baseline_method: "Breslow"   # Options: "KM", "Breslow"
