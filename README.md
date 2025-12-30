@@ -35,8 +35,7 @@ dataset. Key operations include:
 - Constructing time-to-event and observation-time fields
 - Preparing labels for downstream survival analysis
 
-Reference:
-- `capstone_complete_report.pdf`
+Reference: `capstone_complete_report.pdf`
 
 ---
 
@@ -50,8 +49,7 @@ This step handles large-scale preprocessing of raw CT imaging data:
 - Compression of imaging data using BLOSC (LZ4HC + bitshuffle) for storage efficiency
 - Parallelized processing across dataset shards
 
-Reference:
-- `datapreprocessing.pdf`
+Reference: `datapreprocessing.pdf`
 
 ---
 
@@ -117,4 +115,5 @@ This repository is intended for:
   medical data
 
 It is **not intended as a runnable benchmark without the original datasets**.
+
 
