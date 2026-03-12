@@ -21,9 +21,6 @@ https://public.tableau.com/views/SurvivalModelsEvaluatedAcrossPredictionHorizons
 
 [![Survival Model Evaluation Dashboard](dashboard_preview.png)](https://public.tableau.com/views/SurvivalModelsEvaluatedAcrossPredictionHorizons15Years/Dashboard1)
 
-The dashboard compares model performance across multiple experimental setups.
-
-
 ## Project Documentation
 - Final project report: `capstone_complete_report.pdf`
 
@@ -119,6 +116,7 @@ This repository is intended for:
   medical data
 
 It is **not intended as a runnable benchmark without the original datasets**.
+
 
 
 
