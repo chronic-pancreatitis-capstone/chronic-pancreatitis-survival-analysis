@@ -11,6 +11,18 @@ multiple experimental configurations.
 The pipeline is organized into **four sequential stages**, each implemented
 in a dedicated folder.
 
+## Interactive Results Dashboard
+
+An interactive Tableau dashboard summarizing survival model performance across
+prediction horizons (1–5 years) is available below.
+
+🔗 **Explore the interactive dashboard:**  
+https://public.tableau.com/views/YOUR_DASHBOARD_LINK
+
+[![Survival Model Evaluation Dashboard](docs/dashboard_preview.png)](https://public.tableau.com/views/SurvivalModelsEvaluatedAcrossPredictionHorizons15Years/Dashboard1)
+
+The dashboard compares model performance across multiple experimental setups.
+
 
 ## Project Documentation
 - Final project report: `capstone_complete_report.pdf`
@@ -107,6 +119,7 @@ This repository is intended for:
   medical data
 
 It is **not intended as a runnable benchmark without the original datasets**.
+
 
 
 
