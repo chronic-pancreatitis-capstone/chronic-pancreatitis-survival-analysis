@@ -19,7 +19,7 @@ prediction horizons (1–5 years) is available below.
 🔗 **Explore the interactive dashboard:**  
 https://public.tableau.com/views/SurvivalModelsEvaluatedAcrossPredictionHorizons15Years/Dashboard1
 
-[![Survival Model Evaluation Dashboard](dashboard_preview.png)](https://public.tableau.com/views/SurvivalModelsEvaluatedAcrossPredictionHorizons15Years/Dashboard1)
+[![Survival Model Evaluation Dashboard](dashboard_preview1.png)](https://public.tableau.com/views/SurvivalModelsEvaluatedAcrossPredictionHorizons15Years/Dashboard1)
 
 ## Project Documentation
 - Final project report: `capstone_complete_report.pdf`
@@ -116,6 +116,7 @@ This repository is intended for:
   medical data
 
 It is **not intended as a runnable benchmark without the original datasets**.
+
 
 
 
